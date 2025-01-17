@@ -1,0 +1,12 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  image-rendering: pixelated;
+}
+
+canvas {
+  width: 100%; /* Scale to fit the parent container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra spacing */
+}
